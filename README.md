@@ -16,6 +16,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * José Flávio
 * Rafael
 * Rodrigo
+* Vanessa
 
 
 ## Orientador
