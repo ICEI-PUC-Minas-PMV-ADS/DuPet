@@ -97,6 +97,10 @@ O propósito de desenvolver esse aplicativo partiu do pressuposto de como e difi
 | Eliane Santos | Desejo que todos os animais não tenha uma vida sofrida. | Como gerenciar todos os animais de ruas ?  | Ter um melhor gerenciamento dos animais de ruas em um só lugar |
 | Marcos Teixeira  | Eliminar papeis do seu sitio  | Com poucas habilidade em smartphone vou conseguir utilizar ?   | Quero ter um controle melhor dos meus animais da fazenda   |
 | Higor Vinicius  | Poder ter as informações em um lugar mais fácil | Vou saber os dias de campanha de vacinação? | Para os meus pets ter uma vida mais saudável   |
+| Luiza Cristina  |                                        |                                          |                                                         |
+| Gustavo Souza  |                                             |                                            |                                                   |
+| Ricardo Oliveira  |                                             |                                               |                                             |
+
 
 ## Modelagem do Processo de Negócio 
 
