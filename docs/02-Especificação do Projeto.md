@@ -21,7 +21,7 @@ O propósito de desenvolver esse aplicativo partiu do pressuposto de como e difi
 | Desejo de conhecer o mundo ao lado do seu amigo  | Não lembrar de “cuidar” do filho canino  | Andar de moto; Viajar; Conhecer pessoas; |
 
 
-
+![Persona 2](https://user-images.githubusercontent.com/81194817/189403764-a18689bb-16f7-4295-a57a-03595b9eb36f.png)
 | ![foto 1](FOTO VAI SER COLOCADA AQUI ) | **Priscila Moana** |**Localização:** São Paulo - SP|
 |:---:|:---:|:---:|
 ||||
