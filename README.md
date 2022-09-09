@@ -11,10 +11,10 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 ## Integrantes
 
 * Adriana Neves da Silva Carvalho
-* Carlos
+* Carlos Roberto Teixeira
 * Gustavo
 * José Flávio
-* Rafael
+* Rafael Henrique Teixeira
 * Rodrigo Pereira Lacerda 
 * Vanessa
 
