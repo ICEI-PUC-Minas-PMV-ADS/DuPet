@@ -8,6 +8,9 @@ O propósito de desenvolver esse aplicativo partiu do pressuposto de como e difi
 
 ## Personas
 
+![Persona 1](https://user-images.githubusercontent.com/81194817/189402542-79b4e2bb-9ef2-4463-a469-9494e9146f5f.png)
+
+
 | ![foto 1](FOTO VAI SER COLOCADA AQUI ) | **Arthur Cedrick Nobre** |**Localização:** Curitiba - PR|
 |:---:|:---:|:---:|
 ||||
