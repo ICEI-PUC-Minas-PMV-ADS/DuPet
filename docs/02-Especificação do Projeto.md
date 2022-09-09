@@ -65,6 +65,7 @@ O propósito de desenvolver esse aplicativo partiu do pressuposto de como e difi
 | **Motivações:** | **Frustrações:** | **Hobbies, História:** |
 | Acordar todos os dias e sair com os seus cachorros   | Maus tratos aos animais  | Ama treinar seus cachorros para tocar os animais da fazenda. |
 
+![Persona 6](https://user-images.githubusercontent.com/81194817/189409073-faaed576-50d1-4999-a9aa-984a36ba137f.png)
 
 | ![foto 1](FOTO VAI SER COLOCADA AQUI ) | **Higor Vinicius** |**Localização:** Porto Alegre - RS  |
 |:---:|:---:|:---:|
