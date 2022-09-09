@@ -15,7 +15,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Gustavo
 * José Flávio
 * Rafael
-* Rodrigo
+* Rodrigo Pereira Lacerda 
 * Vanessa
 
 
