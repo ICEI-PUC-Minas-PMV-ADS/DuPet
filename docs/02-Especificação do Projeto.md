@@ -43,6 +43,7 @@ O propósito de desenvolver esse aplicativo partiu do pressuposto de como e difi
 | **Motivações:** | **Frustrações:** | **Hobbies, História:** |
 | Ajudar ao próximo   | Fome e dor nos animais    | Estudar  ; Trabalho voluntário  ; |
 
+![Persona 4](https://user-images.githubusercontent.com/81194817/189408596-5eae887b-0401-474a-9c6d-e7880207f63c.png)
 
 | ![foto 1](FOTO VAI SER COLOCADA AQUI ) | **Eliane Santos** |**Localização:** Rio de Janeiro - RJ |
 |:---:|:---:|:---:|
