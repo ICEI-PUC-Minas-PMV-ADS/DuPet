@@ -2,25 +2,73 @@
 
 <span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
+O propósito de desenvolver esse aplicativo partiu do pressuposto de como e dificil manter a organizado do cartão de vacinação dos nossos pets.sendo que todos os dados estão sendo colocado em papel. partindo dai a ideia do desenvolvimento do aplicativo sendo que hoje todos temos um smartphone , pode facilitar muito a organização das vacinas e demais necessidades dos nossos queridos. 
 
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+| ![foto 1](FOTO VAI SER COLOCADA AQUI ) | **Arthur Cedrick Nobre** |**Localização:** Curitiba - PR|
+|:---:|:---:|:---:|
+||||
+| **Idade:** | **Ocupação:** | **Plataforma e APP's utilizados:** |
+| 42 anos | CEO da bickyn | Ifood; Spotify; DogHero; Cobasi; Petz; |
+||||
+| **Motivações:** | **Frustrações:** | **Hobbies, História:** |
+| Desejo de conhecer o mundo ao lado do seu amigo  | Não lembrar de “cuidar” do filho canino  | Andar de moto; Viajar; Conhecer pessoas; |
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+
+| ![foto 1](FOTO VAI SER COLOCADA AQUI ) | **Priscila Moana** |**Localização:** São Paulo - SP|
+|:---:|:---:|:---:|
+||||
+| **Idade:** | **Ocupação:** | **Plataforma e APP's utilizados:** |
+| 30 anos | Gerente de produto | Instagram ; Netflix ; Amazon Prime ; Facebook; |
+||||
+| **Motivações:** | **Frustrações:** | **Hobbies, História:** |
+| Independência emocional e financeira   | Maus tratos nos animais   | Filmes e séries ; Ioga; Bike  ; Caminhar ao ar livre com seus cães ; |
+
+
+
+| ![foto 1](FOTO VAI SER COLOCADA AQUI ) | **Esmeralda Rosa** |**Localização:** Belo Horizonte- MG |
+|:---:|:---:|:---:|
+||||
+| **Idade:** | **Ocupação:** | **Plataforma e APP's utilizados:** |
+| 40 anos | Veterinária | Instagram ;  Whatsapp;  |
+||||
+| **Motivações:** | **Frustrações:** | **Hobbies, História:** |
+| Ajudar ao próximo   | Fome e dor nos animais    | Estudar  ; Trabalho voluntário  ; |
+
+
+| ![foto 1](FOTO VAI SER COLOCADA AQUI ) | **Eliane Santos** |**Localização:** Rio de Janeiro - RJ |
+|:---:|:---:|:---:|
+||||
+| **Idade:** | **Ocupação:** | **Plataforma e APP's utilizados:** |
+| 22 anos | Estudante Direito | Instagram ;  Whatsapp; GloboPlay  |
+||||
+| **Motivações:** | **Frustrações:** | **Hobbies, História:** |
+| Estudar para passar no concurso de delegada   | Maus tratos aos animais  | Estudar  ; Trabalho voluntário em ajuda aos animais de ruas   ; |
+
+
+| ![foto 1](FOTO VAI SER COLOCADA AQUI ) | **Marcos Teixeira** |**Localização:** Uba - MG |
+|:---:|:---:|:---:|
+||||
+| **Idade:** | **Ocupação:** | **Plataforma e APP's utilizados:** |
+| 60 anos | Aposentado | whatsapp; |
+||||
+| **Motivações:** | **Frustrações:** | **Hobbies, História:** |
+| Acordar todos os dias e sair com os seus cachorros   | Maus tratos aos animais  | Ama treinar seus cachorros para tocar os animais da fazenda. |
+
+
+| ![foto 1](FOTO VAI SER COLOCADA AQUI ) | **Higor Vinicius** |**Localização:** Porto Alegre - RS  |
+|:---:|:---:|:---:|
+||||
+| **Idade:** | **Ocupação:** | **Plataforma e APP's utilizados:** |
+| 35 anos | Advogado |  Spotify ; Youtube; |
+||||
+| **Motivações:** | **Frustrações:** | **Hobbies, História:** |
+| Acordar todos os dias e sair com os seus cachorros no bairro onde mora   | Maus tratos aos animais  | Hobbie de poder fazer caminhada com o seu cachorro e também dos vizihos. |
+
 
 ## Histórias de Usuários
 
