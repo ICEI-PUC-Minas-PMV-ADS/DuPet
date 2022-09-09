@@ -11,7 +11,7 @@ O propósito de desenvolver esse aplicativo partiu do pressuposto de como e difi
 ![Persona 1](https://user-images.githubusercontent.com/81194817/189402542-79b4e2bb-9ef2-4463-a469-9494e9146f5f.png)
 
 
-|  ![Persona 1](https://user-images.githubusercontent.com/81194817/189406861-06126422-d465-4ccc-ae78-4dfd74f4cc86.png)  | **Arthur Cedrick Nobre** |**Localização:** Curitiba - PR|
+|  ![foto 1](FOTO VAI SER COLOCADA AQUI ) | **Arthur Cedrick Nobre** |**Localização:** Curitiba - PR|
 |:---:|:---:|:---:|
 ||||
 | **Idade:** | **Ocupação:** | **Plataforma e APP's utilizados:** |
@@ -54,6 +54,7 @@ O propósito de desenvolver esse aplicativo partiu do pressuposto de como e difi
 | **Motivações:** | **Frustrações:** | **Hobbies, História:** |
 | Estudar para passar no concurso de delegada   | Maus tratos aos animais  | Estudar  ; Trabalho voluntário em ajuda aos animais de ruas   ; |
 
+![Persona 5](https://user-images.githubusercontent.com/81194817/189408904-dc1b29dc-3a1e-4d70-ac15-489aa8ba5e9f.png)
 
 | ![foto 1](FOTO VAI SER COLOCADA AQUI ) | **Marcos Teixeira** |**Localização:** Uba - MG |
 |:---:|:---:|:---:|
