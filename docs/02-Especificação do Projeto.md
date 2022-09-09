@@ -10,6 +10,16 @@ O propósito de desenvolver esse aplicativo partiu do pressuposto de como e difi
 
 ![Persona 1](https://user-images.githubusercontent.com/81194817/189402542-79b4e2bb-9ef2-4463-a469-9494e9146f5f.png)
 
+![Persona 2](https://user-images.githubusercontent.com/81194817/189403764-a18689bb-16f7-4295-a57a-03595b9eb36f.png)
+
+![Persona 3](https://user-images.githubusercontent.com/81194817/189404274-940deaae-d082-45fa-9fef-333b9ce3b37c.png)
+
+![Persona 4](https://user-images.githubusercontent.com/81194817/189408596-5eae887b-0401-474a-9c6d-e7880207f63c.png)
+
+![Persona 5](https://user-images.githubusercontent.com/81194817/189408904-dc1b29dc-3a1e-4d70-ac15-489aa8ba5e9f.png)
+
+![Persona 6](https://user-images.githubusercontent.com/81194817/189409073-faaed576-50d1-4999-a9aa-984a36ba137f.png)
+
 
 |  ![foto 1](FOTO VAI SER COLOCADA AQUI ) | **Arthur Cedrick Nobre** |**Localização:** Curitiba - PR|
 |:---:|:---:|:---:|
@@ -21,7 +31,7 @@ O propósito de desenvolver esse aplicativo partiu do pressuposto de como e difi
 | Desejo de conhecer o mundo ao lado do seu amigo  | Não lembrar de “cuidar” do filho canino  | Andar de moto; Viajar; Conhecer pessoas; |
 
 
-![Persona 2](https://user-images.githubusercontent.com/81194817/189403764-a18689bb-16f7-4295-a57a-03595b9eb36f.png)
+
 | ![foto 1](FOTO VAI SER COLOCADA AQUI ) | **Priscila Moana** |**Localização:** São Paulo - SP|
 |:---:|:---:|:---:|
 ||||
@@ -32,7 +42,7 @@ O propósito de desenvolver esse aplicativo partiu do pressuposto de como e difi
 | Independência emocional e financeira   | Maus tratos nos animais   | Filmes e séries ; Ioga; Bike  ; Caminhar ao ar livre com seus cães ; |
 
 
-![Persona 3](https://user-images.githubusercontent.com/81194817/189404274-940deaae-d082-45fa-9fef-333b9ce3b37c.png)
+
 
 | ![foto 1](FOTO VAI SER COLOCADA AQUI ) | **Esmeralda Rosa** |**Localização:** Belo Horizonte- MG |
 |:---:|:---:|:---:|
@@ -43,7 +53,7 @@ O propósito de desenvolver esse aplicativo partiu do pressuposto de como e difi
 | **Motivações:** | **Frustrações:** | **Hobbies, História:** |
 | Ajudar ao próximo   | Fome e dor nos animais    | Estudar  ; Trabalho voluntário  ; |
 
-![Persona 4](https://user-images.githubusercontent.com/81194817/189408596-5eae887b-0401-474a-9c6d-e7880207f63c.png)
+
 
 | ![foto 1](FOTO VAI SER COLOCADA AQUI ) | **Eliane Santos** |**Localização:** Rio de Janeiro - RJ |
 |:---:|:---:|:---:|
@@ -54,7 +64,7 @@ O propósito de desenvolver esse aplicativo partiu do pressuposto de como e difi
 | **Motivações:** | **Frustrações:** | **Hobbies, História:** |
 | Estudar para passar no concurso de delegada   | Maus tratos aos animais  | Estudar  ; Trabalho voluntário em ajuda aos animais de ruas   ; |
 
-![Persona 5](https://user-images.githubusercontent.com/81194817/189408904-dc1b29dc-3a1e-4d70-ac15-489aa8ba5e9f.png)
+
 
 | ![foto 1](FOTO VAI SER COLOCADA AQUI ) | **Marcos Teixeira** |**Localização:** Uba - MG |
 |:---:|:---:|:---:|
@@ -65,7 +75,7 @@ O propósito de desenvolver esse aplicativo partiu do pressuposto de como e difi
 | **Motivações:** | **Frustrações:** | **Hobbies, História:** |
 | Acordar todos os dias e sair com os seus cachorros   | Maus tratos aos animais  | Ama treinar seus cachorros para tocar os animais da fazenda. |
 
-![Persona 6](https://user-images.githubusercontent.com/81194817/189409073-faaed576-50d1-4999-a9aa-984a36ba137f.png)
+
 
 | ![foto 1](FOTO VAI SER COLOCADA AQUI ) | **Higor Vinicius** |**Localização:** Porto Alegre - RS  |
 |:---:|:---:|:---:|
