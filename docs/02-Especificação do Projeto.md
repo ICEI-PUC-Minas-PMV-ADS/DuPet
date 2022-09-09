@@ -32,6 +32,7 @@ O propósito de desenvolver esse aplicativo partiu do pressuposto de como e difi
 | Independência emocional e financeira   | Maus tratos nos animais   | Filmes e séries ; Ioga; Bike  ; Caminhar ao ar livre com seus cães ; |
 
 
+![Persona 3](https://user-images.githubusercontent.com/81194817/189404274-940deaae-d082-45fa-9fef-333b9ce3b37c.png)
 
 | ![foto 1](FOTO VAI SER COLOCADA AQUI ) | **Esmeralda Rosa** |**Localização:** Belo Horizonte- MG |
 |:---:|:---:|:---:|
