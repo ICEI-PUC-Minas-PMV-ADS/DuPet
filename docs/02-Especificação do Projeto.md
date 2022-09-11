@@ -216,4 +216,26 @@ O gerenciamento adequado de tarefas contribuirá para que o projeto alcance alto
 
 O processo de determinar o custo do projeto é uma tarefa que depende, além dos produtos (saídas) dos processos anteriores do gerenciamento de custos, também de produtos oferecidos por outros processos de gerenciamento, como o escopo e o tempo.
 
-![Orçamento](img/orcamento.png)
+************** **ORÇAMENTO** ********************
+| **RECURSOS** | **QUANTIDADE** | **VALOR (R$)** |
+|--------------|----------------|----------------|
+| Recursos Humanos | 07 | R$ 21.000,00 |
+| Hardware | 07 | R$ 8.750,00 |
+| Rede | 07 | R$ 3.500,00 |
+| Softwares | 07 | R$ 700,00 |
+| Serviços  | 07 | R$ 1.750,00 |
+| **TOTAL**| | **R$ 35.200,00** |
+
+Memória de Cálculo: 
+
+Recursos Humanos = 7 pessoas x R$ 50,00/Hora x 60 Horas = R$ 21.000,00 
+
+Hardware = locação 7 Notebooks x R$ 250,00/Mês x 5 Meses = R$ 8.750,00 
+
+Rede = 7 internet banda larga x R$ 100,00/Mês x 5 Meses = R$ 3.000,00 
+
+Softwares = locação de 7 (windows, office) x R$ 20,00/Mês x 5 Meses = R$ 700,00 
+
+Serviços = 7 despesas (energia, hospedagem) x R$ 50,00/Mês x 5 Meses = R$ 1.750,00 
+
+ 
