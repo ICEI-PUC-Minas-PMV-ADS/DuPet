@@ -1,27 +1,27 @@
 # DuPet
 
-`CURSO`
+`ANÁLISE E DESENVOLVIMENTO DE SISTEMAS`
 
-`DISCIPLINA`
+`Eixo 4 - Projeto: Projeto: Desenvolvimento de uma Aplicação Distribuída`
 
-`SEMESTRE`
+`Turma 01 - 2022/2`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
 ## Integrantes
 
 * Adriana Neves da Silva Carvalho
 * Carlos Roberto Teixeira
-* Gustavo
-* José Flávio
+* Gustavo Figueiredo Costa
+* José Flavio Miranda
 * Rafael Henrique Teixeira
-* Rodrigo Pereira Lacerda 
+* Rodrigo Pereira Lacerda
 * Vanessa
+
 
 
 ## Orientador
 
-* Nome completo do professor 1
+* Felipe Augusto Lara Soares
 
 ## Instruções de utilização
 
