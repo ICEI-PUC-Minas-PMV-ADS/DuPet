@@ -24,18 +24,7 @@ O propósito de desenvolver esse aplicativo partiu do pressuposto de como e difi
 
 ## Histórias de Usuários
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` | DÚVIDAS |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|---------|----------------------------------------|
-| Arthur Cedrick Nobre  | Lembrar quando é qual vacina deu nos seus animais  | Quando tomar a vacina o comprovante vai direto para o App? ou vou ter que manter o comprovante guardado? | Centralizar registro de vacina e vermífugos ministrados ao pet.  |
-| Priscila Moana  | Centralizar as informações dos seus cães  | Por ter uma carreira em ascendência, tem pouco tempo para cuidar dos seus pets  | Unificação e lembrete de vacinar e vermífugar seus cães  |
-| Esmeralda Rosa Silva  | Centralizar as informações | Pouco tempo e baixo conhecimento em app móveis  | Ampliar oferta de serviços da sua clínica e ter contato com os seguidores. |
-| Eliane Santos | Desejo que todos os animais não tenha uma vida sofrida. | Como gerenciar todos os animais de ruas ?  | Ter um melhor gerenciamento dos animais de ruas em um só lugar |
-| Marcos Teixeira  | Eliminar papeis do seu sitio  | Com poucas habilidade em smartphone vou conseguir utilizar ?   | Quero ter um controle melhor dos meus animais da fazenda   |
-| Higor Vinicius  | Poder ter as informações em um lugar mais fácil | Vou saber os dias de campanha de vacinação? | Para os meus pets ter uma vida mais saudável   |
-| Luiza Cristina  |                                        |                                          |                                                         |
-| Gustavo Souza  |                                             |                                            |                                                   |
-| Ricardo Oliveira  |                                             |                                               |                                             |
-
+> ![historias de usuarios](https://user-images.githubusercontent.com/81448442/189538817-9d7be7bc-1409-49eb-9618-5b77e00e23fa.png)                                      
 
 ## Modelagem do Processo de Negócio 
 
