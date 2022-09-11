@@ -4,6 +4,7 @@ O cenário pandêmico causado pela Covid-19 em 2020 trouxe à tona uma série de
 
 ## Problema
 Diante do que foi exposto, o problema que se busca resolver com este projeto é a dificuldade dos donos de pets de realizar um acompanhamento adequado das vacinações de seus animais de estimação, bem como contribuir indiretamente para o aumento nos números de imunização animal contra patologias que podem ser fatais aos bichos e seres humanos caso estes sejam afetados. 
+
 ## Objetivos
 
 O objetivo geral deste trabalho é o desenvolvimento de uma solução tecnológica que simplifique para os proprietários de animais domésticos o processo de controle de vacinação dos seus pets. 
@@ -11,11 +12,9 @@ O objetivo geral deste trabalho é o desenvolvimento de uma solução tecnológi
 ## Objetivos Especificos
 Como objetivos específicos, podemos ressaltar: 
 
-Fornecer funcionalidades que permitam ao usuário se cadastrar na aplicação e registrar o(s) seu(s) animais domésticos, vinculando-os em sua conta; 
-
-Fornecer funcionalidades que permitam ao usuário registrar as vacinas e vermífugos que foram tomados pelos seus animais, bem como as demais informações que complementam esse registro; 
-
-Fornecer funcionalidades que notifiquem o usuário quanto aos prazos de repetição de novas doses de vacinas e vermífugos; 
+- Fornecer funcionalidades que permitam ao usuário se cadastrar na aplicação e registrar o(s) seu(s) animais domésticos, vinculando-os em sua conta; 
+- Fornecer funcionalidades que permitam ao usuário registrar as vacinas e vermífugos que foram tomados pelos seus animais, bem como as demais informações que complementam esse registro; 
+- Fornecer funcionalidades que notifiquem o usuário quanto aos prazos de repetição de novas doses de vacinas e vermífugos; 
 
 ## Justificativa
 
@@ -23,4 +22,4 @@ Preservar a saúde pública engloba muitas vertentes, envolvendo ações mínima
 
 ## Público-Alvo
 
-O principal público-alvo a se beneficiar com a solução proposta são os proprietários de cães e gatos que por vezes se veem em dificuldade para manter o controle sobre as vacinações constantes de seus animais. 
+O principal público-alvo a se beneficiar com a solução proposta são os proprietários de cães e gatos que por vezes se veem em dificuldade para manter o controle sobre as vacinações periodicas de seus animais. 
