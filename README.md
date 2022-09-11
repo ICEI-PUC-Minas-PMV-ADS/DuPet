@@ -15,7 +15,7 @@
 * José Flavio Miranda
 * Rafael Henrique Teixeira
 * Rodrigo Pereira Lacerda
-* Vanessa
+* Vanessa Aparecida André
 
 
 
