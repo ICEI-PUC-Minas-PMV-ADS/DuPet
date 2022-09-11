@@ -109,6 +109,9 @@ Enumere as restrições à sua solução. Lembre-se de que as restrições geral
 
 ## Diagrama de Casos de Uso
 
+O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos.
+
+
 | Ator | Descrição |
 |------|-----------|
 |Usuário | Pessoa interessada em ter maior controle sobre a vacinação dos seus pets; |
@@ -123,16 +126,8 @@ Enumere as restrições à sua solução. Lembre-se de que as restrições geral
 | Apresentar lista pré-selecionada de vacinas | No caso do registro de vacinas, a aplicação deve mostrar uma lista de sugestões para inclusão | RF-005 |
 | Mostrar pets cadastrados | A aplicação deve mostrar os animais de estimação cadastrados pelo usuário na tela inicial | RF-006 |
 
-- [Representação Visual dos Casos de Uso](https://lucid.app/lucidchart/816ae4ee-c6c9-4843-ba29-98fa866eefea/edit?beaconFlowId=828B05AF4D09364F&invitationId=inv_f2a6041a-68ae-40e1-8c3f-b60b8b3cf130&page=0_0)
+> ![diagrama de casos de uso](https://user-images.githubusercontent.com/81448442/189544040-02af2b67-1e47-4254-b1dd-893e99eb5a78.png)
 
-![Diagrama de Casos de Uso](img/diagrdama-casos-uso.png)
-
-> **Links Úteis**:
-> - [Criando Casos de Uso](https://www.ibm.com/docs/pt-br/elm/6.0?topic=requirements-creating-use-cases)
-> - [Como Criar Diagrama de Caso de Uso: Tutorial Passo a Passo](https://gitmind.com/pt/fazer-diagrama-de-caso-uso.html/)
-> - [Lucidchart](https://www.lucidchart.com/)
-> - [Astah](https://astah.net/)
-> - [Diagrams](https://app.diagrams.net/)
 
 # Matriz de Rastreabilidade
 
@@ -154,11 +149,6 @@ A matriz deve contemplar todos os elementos relevantes que fazem parte do sistem
 
 
 ![Matriz de Rastreabilidade](img/matriz-rastreabilidade.png)
-
-> **Links Úteis**:
-> - [Artigo Engenharia de Software 13 - Rastreabilidade](https://www.devmedia.com.br/artigo-engenharia-de-software-13-rastreabilidade/12822/)
-> - [Verificação da rastreabilidade de requisitos usando a integração do IBM Rational RequisitePro e do IBM ClearQuest Test Manager](https://developer.ibm.com/br/tutorials/requirementstraceabilityverificationusingrrpandcctm/)
-> - [IBM Engineering Lifecycle Optimization – Publishing](https://www.ibm.com/br-pt/products/engineering-lifecycle-optimization/publishing/)
 
 
 # Gerenciamento de Projeto
