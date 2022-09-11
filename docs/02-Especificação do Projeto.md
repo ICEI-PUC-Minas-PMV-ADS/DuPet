@@ -150,6 +150,19 @@ A matriz de rastreabilidade é uma ferramenta usada para facilitar a visualizaç
 
 A matriz deve contemplar todos os elementos relevantes que fazem parte do sistema, conforme a figura meramente ilustrativa apresentada a seguir.
 
+******************  **REQUISITOS FUNCIONAIS**  **************** **REQUISITOS NÃO FUNCIONAIS**   ****** **CASOS DE USO** ***********************        
+|          |RF-001|RF-002|RF-003|RF-004|RF-005|RF-006|RNF-001|RNF-002|RNF-003|RNF-004|UC-1|UC-2|UC-3|UC-4|UC-5|UC-6|UC-7|
+|----------|------|------|------|------|------|------|-------|-------|-------|-------|----|----|----|----|----|----|----|
+| Usuários |  X   |  X   |  X   |  X   |      |      |       |       |       |       |    |    |    |    |    |    |    | 
+| Sistema  |      |      |      |      |  X   |  X   |       |       |       |       |    |    |    |    |    |    |    |
+|  RF-001  |      |      |      |      |      |      |  X    |  X    |  X    |  X    |  X |    |    |    |    |    |    |
+|  RF-002  |      |      |      |      |      |      |  X    |  X    |  X    |  X    |    | X  |    |    |    |    |    |
+|  RF-003  |      |      |      |      |      |      |  X    |  X    |  X    |  X    |    |    |  X |    |    |    |    |
+|  RF-004  |      |      |      |      |      |      |  X    |  X    |  X    |  X    |    |    |    | X  | X  |    |    |
+|  RF-005  |      |      |      |      |      |      |  X    |  X    |  X    |  X    |    |    |    |    |    |  X |    |
+|  RF-006  |      |      |      |      |      |      |  X    |  X    |  X    |  X    |    |    |    |    |    |    | X  |
+
+
 ![Matriz de Rastreabilidade](img/matriz-rastreabilidade.png)
 
 > **Links Úteis**:
@@ -166,7 +179,24 @@ De acordo com o PMBoK v6 as dez áreas que constituem os pilares para gerenciar 
 
 Para elaboração do cronograma do projeto adotamos a técnica PERT – Programa Evaluation Review Technique em conjunto com o método CPM – Critical Path Method, que nos auxiliou a estimar através da experiência em outros projetos já realizados anteriormente e, de forma estatística, o tempo necessário para a realização do desenvolvimento desta nova aplicação. Já sabemos de antemão as tarefas a serem desenvolvidas em cada uma das etapas e baseado nessas iremos determinar o cronograma de tempo. Uma das vantagens que enxergamos com o uso desses dois recursos foram estabelecer os prazos para que cada uma das etapas do projeto seja entregue dentro do prazo firmado, ter uma visão detalhada do que teremos que fazer em cada etapa de forma sequencial e saber distinguir e priorizar as tarefas críticas do projeto. Baseado nisso, poderemos administrar melhor o tempo e minimizar todo e qualquer desperdício de tempo para que possamos concluir todo o projeto no prazo final. 
 
-![Lista de Atividades)](img/lista-atividades.png)
+| Atividades | Descrição | Tempo (dias) | Atividades Precedentes | Atividades Subsequentes |
+|------------|-----------|--------------|------------------------|-------------------------|
+|     A      | Concepção do Projeto (Fórum para formação do grupo, Brainstorming para discussão e proposição do tema da aplicação a ser desenvolvida). |   3   |  -  |   B   |
+|     B      | Documentação de Contexto (Contexto, Problema, Objetivos, Justificativa, Público-alvo).  |   5   |  A  |   C   |
+|     C      | Especificações do Projeto (Personas, Histórias de Usuários, Requisitos, Restrições, Diagrama de Casos de Uso, Matriz de Rastreabilidade, Gerenciamento de Projeto).  |   11  |  B  |   D   |
+|     D      | Documentação da Arquitetura da Aplicação Distribuída.  |   6   |  C  |   E   |
+|     E      | Projeto da Arquitetura Baseada em API.  |   5   |  D  |   F   |
+|     F      | Implementação da API e Testes de Unidade.  |   5   |  E  |   G   |
+|     G      | Documentação com justificativa e avaliação do modelo de dados NoSQL para o contexto da aplicação.  |   6   |  F  |   H   |
+|     H      | Implementação das funcionalidades que envolvem o banco de dados NoSQL para armazenamento e recuperação de dados.  |   4   |  G  |   I   |
+|     I      | Documentação do projeto de interface e do fluxo de telas do sistema de uma aplicação web.  |   6   |  H  |   J   |
+|     J      | Implementação do projeto de interface, fluxo de telas do sistema de uma aplicação web e testes de integração.  |   4   |  I  |   K   |
+|     K      | Documentação do projeto de interface e do fluxo de telas do sistema de uma aplicação mobile.  |   5   |  J  |   L   |
+|     L      | Implementação do projeto de interface, fluxo de telas do sistema de uma aplicação mobile e testes de sistema.  |   9   |  K  |   M   |
+|     M      | Projeto Final.  |   12  |  L  |   N   |
+|     N      | Considerações Finais (Avaliação dos Frameworks e tecnologias utilizadas, Análise Crítica e Proposta de Melhorias).  |   4   |  M  |   O   |
+|     O      | Entrega do Vídeo da Apresentação Final e PDF usado na Apresentação.  |   1   |  N  |   P   |
+|     P      | Realização da Apresentação Final.  |   1   |  O  |   -   |
 
 Para construção do Gráfico de Gantt e do Diagramas de Rede (método francês) utilizamos o software Project Libre.
 
