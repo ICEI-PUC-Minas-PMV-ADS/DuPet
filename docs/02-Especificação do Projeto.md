@@ -76,6 +76,7 @@ Tabela 02: descrição dos requisitos funcionais.
 |RF-004| A aplicação deve permitir ao usuário registrar no cadastro de cada pet as vacinas e vermífugos tomados por ele.    | ALTA |
 |RF-005| A aplicação deve mostrar uma lista pré-selecionada de vacinas para registro.    | MÉDIA |
 |RF-006| O app deve mostrar os pets cadastrados na tela inicial.    | MÉDIA |
+|RF-007| O app deve enviar notificações aos usuários .    | BAIXA |
 
 ### Requisitos não Funcionais
 
