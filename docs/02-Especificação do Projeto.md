@@ -129,18 +129,18 @@ A matriz de rastreabilidade é uma ferramenta usada para facilitar a visualizaç
 
 A matriz deve contemplar todos os elementos relevantes que fazem parte do sistema, conforme a figura meramente ilustrativa apresentada a seguir.
 
-******************  **REQUISITOS FUNCIONAIS**  **************** **REQUISITOS NÃO FUNCIONAIS**   ****** **CASOS DE USO** ***********************        
-|          |RF-001|RF-002|RF-003|RF-004|RF-005|RF-006|RNF-001|RNF-002|RNF-003|RNF-004|UC-1|UC-2|UC-3|UC-4|UC-5|UC-6|UC-7|
-|----------|------|------|------|------|------|------|-------|-------|-------|-------|----|----|----|----|----|----|----|
-| Usuários |  X   |  X   |  X   |  X   |      |      |       |       |       |       |    |    |    |    |    |    |    | 
-| Sistema  |      |      |      |      |  X   |  X   |       |       |       |       |    |    |    |    |    |    |    |
-|  RF-001  |      |      |      |      |      |      |  X    |  X    |  X    |  X    |  X |    |    |    |    |    |    |
-|  RF-002  |      |      |      |      |      |      |  X    |  X    |  X    |  X    |    | X  |    |    |    |    |    |
-|  RF-003  |      |      |      |      |      |      |  X    |  X    |  X    |  X    |    |    |  X |    |    |    |    |
-|  RF-004  |      |      |      |      |      |      |  X    |  X    |  X    |  X    |    |    |    | X  | X  |    |    |
-|  RF-005  |      |      |      |      |      |      |  X    |  X    |  X    |  X    |    |    |    |    |    |  X |    |
-|  RF-006  |      |      |      |      |      |      |  X    |  X    |  X    |  X    |    |    |    |    |    |    | X  |
-
+******************  **REQUISITOS FUNCIONAIS**  *********************** **REQUISITOS NÃO FUNCIONAIS**   ****** **CASOS DE USO** **********************        
+|          |RF-001|RF-002|RF-003|RF-004|RF-005|RF-006|RF-007|RNF-001|RNF-002|RNF-003|RNF-004|UC-1|UC-2|UC-3|UC-4|UC-5|UC-6|UC-7|UC-8|
+|----------|------|------|------|------|------|------|------|-------|-------|-------|-------|----|----|----|----|----|----|----|----|
+| Usuários |  X   |  X   |  X   |  X   |      |      |      |       |       |       |       |    |    |    |    |    |    |    |    |
+| Sistema  |      |      |      |      |  X   |  X   |  X   |       |       |       |       |    |    |    |    |    |    |    |    |
+|  RF-001  |      |      |      |      |      |      |      |   X   |   X   |   X   |   X   |  X |    |    |    |    |    |    |    |
+|  RF-002  |      |      |      |      |      |      |      |   X   |   X   |   X   |   X   |    | X  |    |    |    |    |    |    |
+|  RF-003  |      |      |      |      |      |      |      |   X   |   X   |   X   |   X   |    |    |  X |    |    |    |    |    |
+|  RF-004  |      |      |      |      |      |      |      |   X   |   X   |   X   |   X   |    |    |    | X  | X  |    |    |    |
+|  RF-005  |      |      |      |      |      |      |      |   X   |   X   |   X   |   X   |    |    |    |    |    |  X |    |    |
+|  RF-006  |      |      |      |      |      |      |      |   X   |   X   |   X   |   X   |    |    |    |    |    |    | X  |    |
+|  RF-007  |      |      |      |      |      |      |      |   X   |   X   |   X   |   X   |    |    |    |    |    |    |    | X  |
 
 ![Matriz de Rastreabilidade](img/matriz-rastreabilidade.png)
 
