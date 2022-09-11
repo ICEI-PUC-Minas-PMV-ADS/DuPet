@@ -50,12 +50,14 @@ Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em segu
 
 ## Indicadores de Desempenho
 
-Apresente aqui os principais indicadores de desempenho e algumas metas para o processo. Atenção: as informações necessárias para gerar os indicadores devem estar contempladas no diagrama de classe. Colocar no mínimo 5 indicadores. 
+| # |Indicador | Objetivos |  Descrição |  Cálculo | Fonte dados |  Perspectiva|  
+|---|-----------|----------|-------------|---------|------------|-----------------------|
+| 1 | Satisfação do cleinte | Verificar a satisfação do app |Quantidade de usuários que mantiveram o app instalado em um período determinado após o download. |  Porcentual de aplicativos instalados por determinado periodo| Playstore | Clientes |
+| 2 | Visibilidade | Verificar a disponibilidade e visibilidade nas lojas de apps  |  Por meio do ranking verificar a disponibilidade do aplicativo nas lojas em que ele está disponível | Posicionamento em relação às palavras-chave que ele se relaciona; Quantidade de usuários que visitam a página do aplicativo; Posição no ranking de sua categoria | Playstore| Gestor de negócios |
+| 3 |  Desinstalações  | Avaliar o que pode ser modificado no app, o que não está agradando ou o que está faltando |  Fornece informações importantes para insights de novas estratégias de marketing do app  | Quantidade de desinstalações em um determinado periodo| Playstore | Clientes insatisfeitos |
+| 4 | Engajamento | Medir o sucesso do aplicativo | Fatores que podem influienciar o engajamento |Tempo de permanência na utilização do app Dupet, quantidade de vezes que é aberto, quantas interações com o app |  software | Crescimento |
+| 5 | nº de download  |  Medir quantidade de download  |  Quantidade de download feito na loja de app. | Quanto mais downloads, mais clientes tiveram contato com o DuPet |  Playstore  | Crescimento e Divulgação   |
 
-Usar o seguinte modelo: 
-
-![Indicadores de Desempenho](img/02-indic-desemp.png)
-Obs.: todas as informações para gerar os indicadores devem estar no diagrama de classe a ser apresentado a posteriori. 
 
 ## Requisitos
 
