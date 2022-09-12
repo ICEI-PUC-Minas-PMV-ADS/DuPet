@@ -216,3 +216,6 @@ Softwares = locação de 7 (windows, office) x R$ 20,00/Mês x 5 Meses = R$ 700,
 Serviços = 7 despesas (energia, hospedagem) x R$ 50,00/Mês x 5 Meses = R$ 1.750,00 
 
  
+ ## Diagrama da Arquitetura Distribuída
+ 
+ ![Diagrama Arquitetura Distribuída](img/arquitetura-distribuida.png)
