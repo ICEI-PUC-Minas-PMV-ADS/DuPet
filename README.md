@@ -1,4 +1,4 @@
-# DuPet
+# DuPet :paw_prints:
 
 `ANÁLISE E DESENVOLVIMENTO DE SISTEMAS`
 
