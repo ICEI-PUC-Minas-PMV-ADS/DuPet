@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QG58K8GYqm0TC21iZemxMEiu+dp39UtDsdkCuF5U7AlFwRAc7uE0uK56sp83D1NWN8MEIcNyoFnwhWaEZme1rg==",
+  "dgSpecHash": "GJCdzKeJA2Vc3gMsVmCBGzAAx09Gl8mPYRWQIpzlRKmK4NCBRORx0wtzd7EH3KweLirwLmBMKONOcs4Jtap/Lg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gusta\\source\\repos\\DuPet\\src\\DuPet\\DuPet.csproj",
+  "projectFilePath": "C:\\Users\\gusta\\Source\\Repos\\DuPet\\src\\DuPet\\DuPet.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gusta\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\gusta\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

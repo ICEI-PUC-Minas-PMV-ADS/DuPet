@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gusta\\source\\repos\\DuPet\\src\\DuPet\\DuPet.csproj": {}
+    "C:\\Users\\gusta\\Source\\Repos\\DuPet\\src\\DuPet\\DuPet.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gusta\\source\\repos\\DuPet\\src\\DuPet\\DuPet.csproj": {
+    "C:\\Users\\gusta\\Source\\Repos\\DuPet\\src\\DuPet\\DuPet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gusta\\source\\repos\\DuPet\\src\\DuPet\\DuPet.csproj",
+        "projectUniqueName": "C:\\Users\\gusta\\Source\\Repos\\DuPet\\src\\DuPet\\DuPet.csproj",
         "projectName": "DuPet",
-        "projectPath": "C:\\Users\\gusta\\source\\repos\\DuPet\\src\\DuPet\\DuPet.csproj",
+        "projectPath": "C:\\Users\\gusta\\Source\\Repos\\DuPet\\src\\DuPet\\DuPet.csproj",
         "packagesPath": "C:\\Users\\gusta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gusta\\source\\repos\\DuPet\\src\\DuPet\\obj\\",
+        "outputPath": "C:\\Users\\gusta\\Source\\Repos\\DuPet\\src\\DuPet\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gusta\\AppData\\Roaming\\NuGet\\NuGet.Config",
