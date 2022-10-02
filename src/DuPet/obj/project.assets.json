@@ -2226,19 +2226,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\gusta\\.nuget\\packages\\": {}
+    "C:\\Users\\ADRIANA\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gusta\\source\\repos\\DuPet\\src\\DuPet\\DuPet.csproj",
+      "projectUniqueName": "C:\\Users\\ADRIANA\\Source\\Repos\\DuPet\\src\\DuPet\\DuPet.csproj",
       "projectName": "DuPet",
-      "projectPath": "C:\\Users\\gusta\\source\\repos\\DuPet\\src\\DuPet\\DuPet.csproj",
-      "packagesPath": "C:\\Users\\gusta\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gusta\\source\\repos\\DuPet\\src\\DuPet\\obj\\",
+      "projectPath": "C:\\Users\\ADRIANA\\Source\\Repos\\DuPet\\src\\DuPet\\DuPet.csproj",
+      "packagesPath": "C:\\Users\\ADRIANA\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ADRIANA\\Source\\Repos\\DuPet\\src\\DuPet\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\gusta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ADRIANA\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

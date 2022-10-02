@@ -1,8 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\src"
+    "\\src",
+    "\\src\\DuPet",
+    "\\src\\DuPet\\Controllers",
+    "\\src\\DuPet\\Migrations",
+    "\\src\\DuPet\\Models"
   ],
-  "SelectedNode": "\\src",
+  "SelectedNode": "\\src\\DuPet\\Models",
   "PreviewInSolutionExplorer": false
 }
