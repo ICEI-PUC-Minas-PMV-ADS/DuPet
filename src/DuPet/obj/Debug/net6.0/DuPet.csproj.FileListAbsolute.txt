@@ -120,3 +120,5 @@ C:\Users\carro\Source\Repos\DuPet\src\DuPet\obj\Debug\net6.0\refint\DuPet.dll
 C:\Users\carro\Source\Repos\DuPet\src\DuPet\obj\Debug\net6.0\DuPet.pdb
 C:\Users\carro\Source\Repos\DuPet\src\DuPet\obj\Debug\net6.0\DuPet.genruntimeconfig.cache
 C:\Users\carro\Source\Repos\DuPet\src\DuPet\obj\Debug\net6.0\ref\DuPet.dll
+C:\Users\carro\source\repos\DuPet\src\DuPet\bin\Debug\net6.0\BCrypt.Net-Next.dll
+C:\Users\carro\source\repos\DuPet\src\DuPet\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

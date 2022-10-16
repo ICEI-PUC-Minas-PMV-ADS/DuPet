@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace DuPet.Models {
     [Table("Usuarios")]
@@ -11,6 +12,7 @@ namespace DuPet.Models {
         [Required]
         public string Email { get; set; }
         [Required]
+        [JsonIgnore]
         public string Senha { get; set; }
         [Required]
         public Perfil Perfil { get; set; }
