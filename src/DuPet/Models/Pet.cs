@@ -23,5 +23,7 @@ namespace DuPet.Models
 
         public ICollection<Dose> Doses { get; set; }
 
+        public ICollection<PetUsuarios> Usuarios { get; set; }
+
     }
 }
