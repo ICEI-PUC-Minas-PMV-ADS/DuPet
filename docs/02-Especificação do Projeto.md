@@ -2,7 +2,7 @@
 
 <span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 
-O propósito de desenvolver esse aplicativo partiu do pressuposto de como e dificil manter a organizado do cartão de vacinação dos nossos pets.sendo que todos os dados estão sendo colocado em papel. partindo dai a ideia do desenvolvimento do aplicativo sendo que hoje todos temos um smartphone , pode facilitar muito a organização das vacinas e demais necessidades dos nossos queridos. 
+O propósito de desenvolver essa aplicação partiu do pressuposto de como e dificil manter a organizado do cartão de vacinação dos nossos pets, sendo que todos os dados estão sendo colocado em papel. Partindo dai a ideia do desenvolvimento de uma aplicação sendo que hoje todos temos um smartphone, notebook e/ou computador, e com isso pode facilitar muito a organização das vacinas e demais necessidades dos nossos queridos. 
 
 
 
@@ -44,11 +44,11 @@ Apresente aqui uma descrição da sua proposta abordando seus limites e suas lig
 
 | # |Indicador | Objetivos |  Descrição |  Cálculo | Fonte dados |  Perspectiva|  
 |---|-----------|----------|-------------|---------|------------|-----------------------|
-| 1 | Satisfação do cleinte | Verificar a satisfação do app |Quantidade de usuários que mantiveram o app instalado em um período determinado após o download. |  Porcentual de aplicativos instalados por determinado periodo| Playstore | Clientes |
-| 2 | Visibilidade | Verificar a disponibilidade e visibilidade nas lojas de apps  |  Por meio do ranking verificar a disponibilidade do aplicativo nas lojas em que ele está disponível | Posicionamento em relação às palavras-chave que ele se relaciona; Quantidade de usuários que visitam a página do aplicativo; Posição no ranking de sua categoria | Playstore| Gestor de negócios |
+| 1 | Satisfação do cleinte | Verificar a satisfação do app |Quantidade de usuários que mantiveram a aplicação instalada em um período determinado após o download. |  Porcentual de aplicações instaladas por determinado periodo| Playstore | Clientes |
+| 2 | Visibilidade | Verificar a disponibilidade e visibilidade nas lojas de apps  |  Por meio do ranking verificar a disponibilidade da aplicação nas lojas em que ele está disponível | Posicionamento em relação às palavras-chave que ele se relaciona; Quantidade de usuários que visitam a página da aplicação; Posição no ranking de sua categoria | Playstore| Gestor de negócios |
 | 3 |  Desinstalações  | Avaliar o que pode ser modificado no app, o que não está agradando ou o que está faltando |  Fornece informações importantes para insights de novas estratégias de marketing do app  | Quantidade de desinstalações em um determinado periodo| Playstore | Clientes insatisfeitos |
-| 4 | Engajamento | Medir o sucesso do aplicativo | Fatores que podem influienciar o engajamento |Tempo de permanência na utilização do app Dupet, quantidade de vezes que é aberto, quantas interações com o app |  software | Crescimento |
-| 5 | nº de download  |  Medir quantidade de download  |  Quantidade de download feito na loja de app. | Quanto mais downloads, mais clientes tiveram contato com o DuPet |  Playstore  | Crescimento e Divulgação   |
+| 4 | Engajamento | Medir o sucesso do aplicativo | Fatores que podem influienciar o engajamento |Tempo de permanência na utilização da aplicação Dupet, quantidade de vezes que é aberto, quantas interações com a aplicação |  software | Crescimento |
+| 5 | nº de download  |  Medir quantidade de download  |  Quantidade de download feito na loja de app ou página de dowloads. | Quanto mais downloads, mais clientes tiveram contato com o DuPet |  Playstore  | Crescimento e Divulgação   |
 
 
 ## Requisitos
@@ -113,7 +113,7 @@ O diagrama de casos de uso é o próximo passo após a elicitação de requisito
 
 |Caso de Uso | Descrição | RF |
 |------------|-----------|----|
-| Cadastrar-se na aplicação | O usuário deve conseguir criar uma conta no aplicativo | RF-001 |
+| Cadastrar-se na aplicação | O usuário deve conseguir criar uma conta na aplicação | RF-001 |
 | Fazer login | O usuário deve conseguir acessar a aplicação com suas credenciais cadastradas | RF-002 |
 | Cadastrar seus pets | O usuário deve conseguir cadastrar até 4 animais de estimação em sua conta para acompanhamento | RF-003 |
 | Registrar vacinas / vermífugos | O usuário deve conseguir adicionar no registro de cada pet as vacinas e vermífugos que foram tomados por ele | RF-004 |
