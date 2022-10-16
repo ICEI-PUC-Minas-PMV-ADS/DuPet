@@ -30,6 +30,7 @@ namespace DuPet.Controllers
         public async Task<ActionResult> VisualizarDetalhesDoPet(int id)
         {
             var model = await _context.Pets
+                .Include(t => t.Usuarios).ThenInclude(t => t.Usuario)
                 .Include(t => t.Doses)
                 .FirstOrDefaultAsync(c => c.Id == id);
 
@@ -68,6 +69,30 @@ namespace DuPet.Controllers
 
             return NoContent();
 
+        }
+
+        [HttpPost("{id}/usuarios")]
+        public async Task<ActionResult> AdicionarUsuario(int id, PetUsuarios model) {
+            if (id != model.PetId) return BadRequest();
+            _context.PetsUsuarios.Add(model);
+            await _context.SaveChangesAsync();
+
+            return CreatedAtAction("VisualizarDetalhesDoPet", new { id = model.PetId }, model);
+        }
+
+        [HttpDelete("{id}/usuarios/{usuarioId}")]
+        public async Task<ActionResult> RemoverUsuario(int id, int usuarioId) {
+
+            var model = await _context.PetsUsuarios
+                .Where(c => c.PetId == id && c.UsuarioId == usuarioId)
+                .FirstOrDefaultAsync();
+
+            if (model == null) return NotFound();
+
+            _context.PetsUsuarios.Remove(model);
+            await _context.SaveChangesAsync();
+
+            return NoContent();
         }
     }
 }
