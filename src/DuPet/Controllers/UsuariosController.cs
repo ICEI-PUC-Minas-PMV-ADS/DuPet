@@ -9,7 +9,7 @@ using System.Security.Claims;
 using System.Text;
 
 namespace DuPet.Controllers {
-    [Authorize]
+    [Authorize(Roles = "Administrador,Usuario")]
     [Route("api/[controller]")]
     [ApiController]
     public class UsuariosController : ControllerBase {

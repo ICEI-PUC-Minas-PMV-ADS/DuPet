@@ -5,7 +5,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace DuPet.Controllers {
-    [Authorize]
+
+    [Authorize(Roles = "Administrador,Usuario")]
     [Route("api/[controller]")]
     [ApiController]
     public class DosesController : ControllerBase {
