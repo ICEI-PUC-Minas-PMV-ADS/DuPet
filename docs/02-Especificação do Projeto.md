@@ -69,8 +69,8 @@ Tabela 02: descrição dos requisitos funcionais.
 |RF-003| A aplicação deve permitir ao usuário registrar até 4 animais de estimação para acompanhamento das vacinas e vermífugos.    | ALTA |
 |RF-004| A aplicação deve permitir ao usuário registrar no cadastro de cada pet as vacinas e vermífugos tomados por ele.    | ALTA |
 |RF-005| A aplicação deve mostrar uma lista pré-selecionada de vacinas para registro.    | MÉDIA |
-|RF-006| O app deve mostrar os pets cadastrados na tela inicial.    | MÉDIA |
-|RF-007| O app deve enviar notificações aos usuários .    | BAIXA |
+|RF-006| A aplicação deve mostrar os pets cadastrados na tela inicial.    | MÉDIA |
+|RF-007| A aplicação deve enviar notificações aos usuários .    | BAIXA |
 
 ### Requisitos não Funcionais
 
@@ -80,10 +80,10 @@ Tabela 03: descrição dos requisitos não funcionais.
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O aplicativo deverá ser responsivo, permitindo a visualização em um celular de forma adequada.  | MÉDIA | 
-|RNF-002| A aplicação deve ser compatível com as últimas versões dos sistemas operacionais do Android e IOS.  |  ALTA |
-|RNF-003| O aplicativo deverá ter uma fonte padrão para todas as escritas, com alterações apenas no tamanho.   |  MÉDIA |
-|RNF-004| O aplicativo deverá apresentar um layout padrão para todas as telas, podendo ser criado ou utilizado um existente.   |  MÉDIA |
+|RNF-001| A aplicação deverá ser responsiva, permitindo a visualização em um celular e em um browser de forma adequada.  | MÉDIA | 
+|RNF-002| A aplicação deve ser compatível com as últimas versões dos sistemas operacionais do Android, IOS, Windows.  |  ALTA |
+|RNF-003| A aplicação deverá ter uma fonte padrão para todas as escritas, com alterações apenas no tamanho.   |  MÉDIA |
+|RNF-004| A aplicação deverá apresentar um layout padrão para todas as telas, podendo ser criado ou utilizado um existente.   |  MÉDIA |
 
 ## Restrições
 
