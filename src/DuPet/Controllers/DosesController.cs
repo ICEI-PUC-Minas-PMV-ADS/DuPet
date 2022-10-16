@@ -3,34 +3,28 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
-namespace DuPet.Controllers
-{
+namespace DuPet.Controllers {
     [Route("api/[controller]")]
     [ApiController]
-    public class PetsController : ControllerBase
-    {
+    public class DosesController : ControllerBase {
         private readonly AppDbContext _context;
 
-        public PetsController(AppDbContext context)
-        {
+        public DosesController(AppDbContext context) {
             _context = context;
         }
 
         [HttpPost]
-        public async Task<ActionResult> AdicionarPet(Pet model)
-        {         
-            _context.Pets.Add(model);
+        public async Task<ActionResult> AdicionarDose(Dose model) {
+            _context.Doses.Add(model);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("VisualizarDetalhesDoPet", new { id = model.Id }, model);
+            return CreatedAtAction("VisualizarDetalhesDaDose", new { id = model.Id }, model);
         }
 
 
         [HttpGet("{id}")]
-        public async Task<ActionResult> VisualizarDetalhesDoPet(int id)
-        {
-            var model = await _context.Pets
-                .Include(t => t.Doses)
+        public async Task<ActionResult> VisualizarDetalhesDaDose(int id) {
+            var model = await _context.Doses
                 .FirstOrDefaultAsync(c => c.Id == id);
 
             if (model == null) return NotFound();
@@ -40,30 +34,28 @@ namespace DuPet.Controllers
         }
 
         [HttpPut("{id}")]
-        public async Task<ActionResult> EditarPet(int id, Pet model)
-        {
+        public async Task<ActionResult> EditarDose(int id, Dose model) {
 
             if (id != model.Id) return BadRequest();
 
-            var modeloDb = await _context.Pets.AsNoTracking()
+            var modeloDb = await _context.Doses.AsNoTracking()
                 .FirstOrDefaultAsync(c => c.Id == id);
 
             if (modeloDb == null) return NotFound();
 
-            _context.Pets.Update(model);
+            _context.Doses.Update(model);
             await _context.SaveChangesAsync();
 
             return NoContent();
         }
 
         [HttpDelete("{id}")]
-        public async Task<ActionResult> RemoverPet(int id)
-        {
-            var model = await _context.Pets.FindAsync(id);
+        public async Task<ActionResult> RemoverDose(int id) {
+            var model = await _context.Doses.FindAsync(id);
 
             if (model == null) return NotFound();
 
-            _context.Pets.Remove(model);
+            _context.Doses.Remove(model);
             await _context.SaveChangesAsync();
 
             return NoContent();
