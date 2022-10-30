@@ -4,6 +4,7 @@ using DuPet.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DuPet.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20221016124623_M002")]
+    partial class M002
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -87,49 +89,6 @@ namespace DuPet.Migrations
                     b.ToTable("Pets");
                 });
 
-            modelBuilder.Entity("DuPet.Models.PetUsuarios", b =>
-                {
-                    b.Property<int>("PetId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("UsuarioId")
-                        .HasColumnType("int");
-
-                    b.HasKey("PetId", "UsuarioId");
-
-                    b.HasIndex("UsuarioId");
-
-                    b.ToTable("PetUsuarios");
-                });
-
-            modelBuilder.Entity("DuPet.Models.Usuario", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
-
-                    b.Property<string>("Email")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Nome")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("Perfil")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Senha")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Usuarios");
-                });
-
             modelBuilder.Entity("DuPet.Models.Dose", b =>
                 {
                     b.HasOne("DuPet.Models.Pet", "Pet")
@@ -141,35 +100,9 @@ namespace DuPet.Migrations
                     b.Navigation("Pet");
                 });
 
-            modelBuilder.Entity("DuPet.Models.PetUsuarios", b =>
-                {
-                    b.HasOne("DuPet.Models.Pet", "Pet")
-                        .WithMany("Usuarios")
-                        .HasForeignKey("PetId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("DuPet.Models.Usuario", "Usuario")
-                        .WithMany("Pets")
-                        .HasForeignKey("UsuarioId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Pet");
-
-                    b.Navigation("Usuario");
-                });
-
             modelBuilder.Entity("DuPet.Models.Pet", b =>
                 {
                     b.Navigation("Doses");
-
-                    b.Navigation("Usuarios");
-                });
-
-            modelBuilder.Entity("DuPet.Models.Usuario", b =>
-                {
-                    b.Navigation("Pets");
                 });
 #pragma warning restore 612, 618
         }
