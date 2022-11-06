@@ -1,0 +1,121 @@
+#pet_menino{
+    align-items:left;
+    Width: 828px;
+    Height:1024px;
+}
+
+.body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.66667;
+    
+}
+#login-card {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 93px;
+    background: #002A48;
+    font-size: 32px;
+    line-height: 60px;
+
+}
+
+
+.container{
+    width: 75%;
+    margin: 3rem auto;
+    background-color:rgba(245, 245, 245, 0.76);
+    display: flex;
+    flex-flow: column;
+    align-items:center;
+    flex-wrap: nowrap;
+}
+
+.tab-slider--nav{
+    float: left;
+    margin-bottom: 20px;
+    margin-top:20px;
+}
+.tab-slider--tabs{
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+    border-radius: 35px;
+    overflow: hidden;
+    background: #fff;
+    border-color: #345F90;
+    border-width: 1px;
+    border-style: solid;
+    height: 35px;
+    user-select: none; 	
+    
+
+}
+
+
+.tab-slider--trigger {
+    font-size: 12px;
+    line-height: 1;
+    font-weight: bold;
+    color: #345F90;
+
+    text-align: center;
+    padding: 11px 20px;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+    display: inline-block;
+    transition: color 250ms ease-in-out;
+    user-select: none; 
+    left: 5px;
+}
+
+.tab-slider--trigger.active {
+        color: #fff;
+    }
+.tab-slider--body{
+    margin-bottom: 20px;
+    
+}  
+
+#salvar_pet {
+    margin-top: 30px;
+    float: right;
+}
+
+
+
+#btn-limpar, #btn-adicionar-pet {
+
+    font-size: 12px;
+    line-height: 1;
+    font-weight:600;
+
+
+    text-align: center;
+    padding: 11px 20px;
+    cursor: pointer;
+
+    border-radius: 35px;
+
+    border-width: 1px;
+    border-style: solid;
+    height: 35px;
+}
+
+#register_btn {
+    color: #345F90;
+    background: #fff;
+    border-color: #345F90;
+}
+
+#login_btn {
+    color: #fff;
+    background: #345F90;
+    border-color: #345F90;
+}
+
+#

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DuPet</title>
+    
+    <link href="../css/style.css" rel="stylesheet" />
+   
+  </head>
+  
+  
+  <body>
+    <div class="main">
+    <div class="container">
+           <div class="tab-slider--container col-6">
+            <div id="tab1" class="tab-slider--body">
+                <h2>Cadastro</h2>
+                <form class="form-label" id="cadastro">
+                    <div class="">
+                        <label for="userName" class="form-label">Qual é o seu nome?</label>
+                        <input type="text" placeholder="Nome completo" class="form-control" id="Name"  value="" required >    
+                    </div>
+                    <div class="">
+                        <label for="email" class="form-input" > E-mail</label>
+                        <input type="text" placeholder="Digite seu Email"  value="" required>   
+                    </div>
+                    <div class="">
+                        <label for="password"class="form-input">Senha</label>
+                        <input id="password" type="password" placeholder="Senha"  value="" required>
+                    </div>
+                    <div class="">
+                        <label for="confirmPassword"class="form-input" >Senha</label>
+                                <input id="password2" type="password" placeholder="Digite novamente sua Senha" value="" required>    
+                    </div>
+                    <div class="">
+                        <label for="phone"class="form-input" >Telefone de contato</label>
+                                <input id="phoneNumber" type="phone" placeholder="(xx) X XXXX- XXXX"  value="" required>    
+                    </div>
+
+                    <div class="col-12" id="botoes-rodape">
+                        <input id="login_btn" type="submit" class="btn btn-primary" value="Cadastrar">
+                        <input id="register_btn" type="submit" class="btn btn-primary" value="Cancelar">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="src\DuPet_WebFrontEnd\Pet\js\UsuariosController.js"></script>
+</body>
+
+
+</html>
