@@ -19,6 +19,7 @@ namespace DuPet.Controllers {
             _context = context;
         }
 
+        [AllowAnonymous]
         [HttpPost]
         public async Task<ActionResult> AdicionarUsuario(UsuarioDto model) {
             Usuario novo = new Usuario() {

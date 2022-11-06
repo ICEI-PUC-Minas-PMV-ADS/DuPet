@@ -44,6 +44,14 @@
               "target": "Package",
               "version": "[4.0.3, )"
             },
+            "Microsoft.AspNet.Cors": {
+              "target": "Package",
+              "version": "[5.2.9, )"
+            },
+            "Microsoft.AspNet.WebApi": {
+              "target": "Package",
+              "version": "[5.2.9, )"
+            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[6.0.10, )"

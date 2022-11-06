@@ -122,3 +122,11 @@ C:\Users\carro\Source\Repos\DuPet\src\DuPet\obj\Debug\net6.0\DuPet.genruntimecon
 C:\Users\carro\Source\Repos\DuPet\src\DuPet\obj\Debug\net6.0\ref\DuPet.dll
 C:\Users\carro\source\repos\DuPet\src\DuPet\bin\Debug\net6.0\BCrypt.Net-Next.dll
 C:\Users\carro\source\repos\DuPet\src\DuPet\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\gusta\source\repos\DuPet\src\DuPet\bin\Debug\net6.0\BCrypt.Net-Next.dll
+C:\Users\gusta\source\repos\DuPet\src\DuPet\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\gusta\source\repos\DuPet\src\DuPet\bin\Debug\net6.0\System.Web.Cors.dll
+C:\Users\gusta\source\repos\DuPet\src\DuPet\bin\Debug\net6.0\System.Net.Http.Formatting.dll
+C:\Users\gusta\source\repos\DuPet\src\DuPet\bin\Debug\net6.0\System.Web.Http.dll
+C:\Users\gusta\source\repos\DuPet\src\DuPet\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\gusta\source\repos\DuPet\src\DuPet\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\gusta\source\repos\DuPet\src\DuPet\bin\Debug\net6.0\System.Web.Http.WebHost.dll

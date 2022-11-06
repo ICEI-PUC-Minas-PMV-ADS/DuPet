@@ -24,11 +24,10 @@ namespace DuPet.Controllers
             _context.Pets.Add(pet);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("VisualizarDetalhesDoPet", new { id = pet.Id }, pet);
+            return CreatedAtAction("VisualizarDetalhesDoPet", new { idPet = pet.Id }, pet);
         }
 
-
-        [HttpGet("{id}")]
+        [HttpGet("{idPet}")]
         public async Task<ActionResult> VisualizarDetalhesDoPet(int idPet)
         {
             var pet = await _context.Pets
