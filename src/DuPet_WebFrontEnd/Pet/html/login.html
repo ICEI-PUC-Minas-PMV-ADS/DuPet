@@ -5,6 +5,8 @@
     <title>DuPet</title>
 
   <link href="../css/style.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
 </head>
 
@@ -12,7 +14,7 @@
 <body>
     <div class="main">
     <div class="container">
-        <img data-testid="pet_menino"  src="https://cdn.pixabay.com/photo/2021/07/31/20/16/shetland-sheepdog-6512991_960_720.jpg" alt="" width="960" height="640" style="height: left">
+        <img id="pet_menino"  src="https://cdn.pixabay.com/photo/2021/07/31/20/16/shetland-sheepdog-6512991_960_720.jpg" alt="" class="rounded float-start">
             <div class="row">
                 <div class="col-md-6">
                     <div class="login-card">
@@ -26,7 +28,7 @@
                                 <label for="password">Senha</label>
                                 <input id="pass2" type="password" placeholder="Senha" class="form-input" value="" required>
                             </p>
-                            <input id="login_btn" type="submit" class="btn btn-primary" value="Login">
+                            <input id="login_btn" type="submit" class="btn btn-primary" value="Entrar">
                             <input id="esqueci_btn" type="submit" class="btn btn-primary" value="Esqueci a Senha">
                             
                         </form>
@@ -35,7 +37,7 @@
             </div>
             </div>
         </div>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ 
        <script src="src\DuPet_WebFrontEnd\Pet\js\UsuariosController.js"></script>
      
           </body>
