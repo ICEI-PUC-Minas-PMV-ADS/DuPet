@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\carro\\source\\repos\\DuPet\\src\\DuPet\\DuPet.csproj": {}
+    "C:\\Users\\gusta\\source\\repos\\DuPet\\src\\DuPet\\DuPet.csproj": {}
   },
   "projects": {
-    "C:\\Users\\carro\\source\\repos\\DuPet\\src\\DuPet\\DuPet.csproj": {
+    "C:\\Users\\gusta\\source\\repos\\DuPet\\src\\DuPet\\DuPet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\carro\\source\\repos\\DuPet\\src\\DuPet\\DuPet.csproj",
+        "projectUniqueName": "C:\\Users\\gusta\\source\\repos\\DuPet\\src\\DuPet\\DuPet.csproj",
         "projectName": "DuPet",
-        "projectPath": "C:\\Users\\carro\\source\\repos\\DuPet\\src\\DuPet\\DuPet.csproj",
-        "packagesPath": "C:\\Users\\carro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\carro\\source\\repos\\DuPet\\src\\DuPet\\obj\\",
+        "projectPath": "C:\\Users\\gusta\\source\\repos\\DuPet\\src\\DuPet\\DuPet.csproj",
+        "packagesPath": "C:\\Users\\gusta\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gusta\\source\\repos\\DuPet\\src\\DuPet\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\carro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gusta\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -43,6 +43,14 @@
             "BCrypt.Net-Next": {
               "target": "Package",
               "version": "[4.0.3, )"
+            },
+            "Microsoft.AspNet.Cors": {
+              "target": "Package",
+              "version": "[5.2.9, )"
+            },
+            "Microsoft.AspNet.WebApi": {
+              "target": "Package",
+              "version": "[5.2.9, )"
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
@@ -86,7 +94,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

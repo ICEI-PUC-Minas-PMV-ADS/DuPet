@@ -19,54 +19,53 @@ namespace DuPet.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult> AdicionarPet(Pet model)
+        public async Task<ActionResult> AdicionarPet(Pet pet)
         {         
-            _context.Pets.Add(model);
+            _context.Pets.Add(pet);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("VisualizarDetalhesDoPet", new { id = model.Id }, model);
+            return CreatedAtAction("VisualizarDetalhesDoPet", new { idPet = pet.Id }, pet);
         }
 
-
-        [HttpGet("{id}")]
-        public async Task<ActionResult> VisualizarDetalhesDoPet(int id)
+        [HttpGet("{idPet}")]
+        public async Task<ActionResult> VisualizarDetalhesDoPet(int idPet)
         {
-            var model = await _context.Pets
+            var pet = await _context.Pets
                 .Include(t => t.Usuarios).ThenInclude(t => t.Usuario)
                 .Include(t => t.Doses)
-                .FirstOrDefaultAsync(c => c.Id == id);
+                .FirstOrDefaultAsync(c => c.Id == idPet);
 
-            if (model == null) return NotFound();
+            if (pet == null) return NotFound();
 
 
-            return Ok(model);
+            return Ok(pet);
         }
 
         [HttpPut("{id}")]
-        public async Task<ActionResult> EditarPet(int id, Pet model)
+        public async Task<ActionResult> EditarPet(int id, Pet pet)
         {
 
-            if (id != model.Id) return BadRequest();
+            if (id != pet.Id) return BadRequest();
 
             var modeloDb = await _context.Pets.AsNoTracking()
                 .FirstOrDefaultAsync(c => c.Id == id);
 
             if (modeloDb == null) return NotFound();
 
-            _context.Pets.Update(model);
+            _context.Pets.Update(pet);
             await _context.SaveChangesAsync();
 
             return NoContent();
         }
 
         [HttpDelete("{id}")]
-        public async Task<ActionResult> RemoverPet(int id)
+        public async Task<ActionResult> RemoverPet(int idPet)
         {
-            var model = await _context.Pets.FindAsync(id);
+            var pet = await _context.Pets.FindAsync(idPet);
 
-            if (model == null) return NotFound();
+            if (pet == null) return NotFound();
 
-            _context.Pets.Remove(model);
+            _context.Pets.Remove(pet);
             await _context.SaveChangesAsync();
 
             return NoContent();
