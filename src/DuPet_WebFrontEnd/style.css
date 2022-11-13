@@ -1,64 +1,58 @@
-#pet_menino{
-    align-items:left;
-    Width: 828px;
-    Height:1024px;
-}
 
-.body{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 1.66667;
-    
-}
-#login-card {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 93px;
-    background: #002A48;
-    font-size: 32px;
-    line-height: 60px;
-
-}
 
 .container{
-    width: 75%;
-    margin: 3rem auto;
+    display: grid;
     background-color:rgba(245, 245, 245, 0.76);
-    display: flex;
-    flex-flow: column;
-    align-items:center;
-    flex-wrap: nowrap;
 }
-
-
-#cadastro_btn {
-    color: #345F90;
-    background: #fff;
-    border-color: #345F90;
+.picture{
+     float:left;
+    width: 50%;
 }
-
-#cancel_btn {
-    color: #fff;
-    background: #345F90;
-    border-color: #345F90;
+.form-label
+{
+    float:right;
+    width: 50%;
+    font-weight: 300;
+    font-size: 16px;
 }
-
-#login_btn {
-    height: 60px;
-    width: 350px;
-    left: 0px;
-    top: 0px;
-    border-radius: 57px;
-    padding: 14px 28px 10px 28px;
-    color: #003459;
+    h2{
+        color: #345F90;
+        font-size: 24px;
+        line-height: 1.25;
+        font-family: "Roboto Slab", sans-serif;
+        font-weight: bold;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
-
- #esqueci_btn {
-      font-family: Montserrat;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 24px;
-        letter-spacing: 0em;
-        text-align: left;
-        background: #3690CF;
+    
+     
+    #btn-esqueci-senha, #btn-adicionar-user, #btn-entrar,  #btn-limpar  {
+        display: flex;
+   
+    
+              margin-top: 30px;
+        font-size: 12px;
+        line-height: 1;
+        font-weight:600;
+        
+        text-align: center;
+        padding: 11px 20px;
+        cursor: pointer;
+    
+        border-radius: 35px;
+        border-width: 1px;
+        border-style: solid;
+        height: 35px;
+    }
+    
+    #btn-esqueci-senha, #btn-limpar  {
+        color: #345F90;
+        background: #fff;
+        border-color: #345F90;
+    }
+    
+    #btn-adicionar-user, #btn-entrar {
+        color: #fff;
+        background: #345F90;
+        border-color: #345F90;
     }
