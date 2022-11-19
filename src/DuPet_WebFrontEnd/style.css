@@ -5,15 +5,16 @@
     background-color:rgba(245, 245, 245, 0.76);
 }
 .picture{
-     float:left;
-    width: 50%;
+    float:left;
+    width: 20%;
 }
-.form-label
-{
-    float:right;
+
+.form-label  {
+   float:right;
     width: 50%;
     font-weight: 300;
     font-size: 16px;
+    color: #345F90;
 }
     h2{
         color: #345F90;
@@ -28,17 +29,13 @@
      
     #btn-esqueci-senha, #btn-adicionar-user, #btn-entrar,  #btn-limpar  {
         display: flex;
-   
-    
-              margin-top: 30px;
+        margin-top: 30px;
         font-size: 12px;
         line-height: 1;
         font-weight:600;
-        
         text-align: center;
         padding: 11px 20px;
         cursor: pointer;
-    
         border-radius: 35px;
         border-width: 1px;
         border-style: solid;
