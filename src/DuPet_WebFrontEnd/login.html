@@ -1,54 +1,41 @@
-HTML Login
 <!DOCTYPE html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
-
-
-  <link href="./css/style.css" rel="stylesheet" />
-  <title>Login</title>
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>DuPet</title>
+    
+    <link href="style.css" rel="stylesheet">    
+    </head>
+  
 
 <body>
-
-    <div class="navbar">
-      <a href="contato.html"><span class="contato">Contato</span></a>
-      <a href="sobre.html"><span class="sobre">Sobre</span></a>
-      <a href="index.html"><span class="inicio">Inicio</span></a>
-      <a href="login.html"><span class="login">Entrar</span></a>
-  
-      <div class="main">
+        <img id ="picture" src="foto-login.jpg" alt="" >
         <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="login-card">
-                        <h2 class="text-center mb-4">Entrar</h2>
-                        <form id="login-form">
-                            <p>
-                                <label for="email">E-mail</label>
-                                <input id="name" type="text" placeholder="Entre com seu Email" class="form-input" value="" required>
-                            </p>
-                            <p>
-                                <label for="password">Senha</label>
-                                <input id="pass2" type="password" placeholder="Senha" class="form-input" value="" required>
-                            </p>
-                            <input id="login_btn" type="submit" class="btn btn-primary" value="Login">
-                            <input id="register_btn" type="submit" class="btn btn-primary" value="Cadastrar">
-                        </form>
-                    </div>
+           <form>
+                
+          <fieldset class="form">
+             <h2 id="titulo">Login</h2>
+              <div class="form-label">
+                <label for="email">E-mail</label>
+                <input id="email" type="email" placeholder="name@example.com" value="" required>
+              </div>
+              <div class="form-label">
+                <label for="password">Senha</label>
+                <input id="password" type="text" placeholder="Senha" value="" required>
                 </div>
-    
-            </div>
+                 <button class="btn-entrar" type="submit"  onclick="DFINIR()">Entrar</button>
+                <button  class="btn-esqueci-senha" type="submit"  onclick="DFINIR()">Esqueci a senha</button>
+               
+            </fieldset>
+        </form>
+            
         </div>
-    </div>
-    
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-      
-      <script src="js/Script.js"></script>
-      
-      
-    </body>
-    
-    </html>
+   
+
+</body>
+
+<script src="js/UsuarioController.js"></script>
+
+</html>
     

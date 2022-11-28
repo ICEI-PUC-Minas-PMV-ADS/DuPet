@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color:rgba(245, 245, 245, 0.76);
+   }
+
+#picture{
+    
+      width: 700px;
+}
+#picture, h2{
+display: inline-block;
+width: 50%;
+
+}
+
+#check{
+    display: inline-block;
+}
+
+
+.form-label input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
+    padding: 0.2em;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+}
+
+.form-label select option{
+        padding-right: 1em;
+    } 
+
+    .form-label input:focus, .form-label select:focus, .form-label textarea:focus {
+        background: #E0E0F8;
+    }
+
+
+
+.container{
+    font-family: sans-serif;
+    font-size: 1em;
+    width: 50%;
+    margin-top: 2%;
+    justify-content: center;
+    border-color: #E0E0F8;
+    
+}
+
+.container2{
+    font-family: sans-serif;
+    font-size: 1em;
+    margin-left: 5%;
+    border-color: #E0E0F8;
+    display: flex;
+
+}
+input, select, textarea, button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.form{
+   display: right;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.66667;
+     float:right;
+
+       clear:both;
+       border-color: #E0E0F8;
+   
+
+
+}
+
+.form2{
+    display: table;
+     font-family: 'Roboto', sans-serif;
+     font-weight: 300;
+     font-size: 16px;
+     line-height: 1.66667;
+      float:center;
+     width: 100%;
+     clear:both;
+     flex-flow: column;
+     border-color: #E0E0F8;
+     
+  
+ }
+
+.form-label{
+margin-bottom:30px;
+width: 75%;
+margin: 3rem ;
+
+align-items:center;
+flex-wrap: nowrap;
+
+}
+#titulo{
+    color: #345F90;
+    font-size: 24px;
+    line-height: 1.25;
+    font-family: "Roboto Slab", sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items:center;
+    margin-left: 5%;
+    }
+    
+ 
+.input, select, textarea, button {
+        font-family: "Roboto" sans-serif;
+        font-size: 1em;
+         border-radius: 5px;
+      
+    }
+
+.btn-limpar, .btn-esqueci-senha  {
+        color: #345F90;
+        background: #fff;
+        border-color: #345F90;
+        font-family: "Roboto" sans-serif;
+        margin-left: 5%;
+    }  
+    
+.btn-entrar, .btn-adicionar-user {
+        color: #fff;
+        background: #345F90;
+        border-color: #345F90;
+        font-family: "Roboto" sans-serif;
+        margin-left: 5%;
+        
+    }
+
+       .btn-entrar, select, .btn-esqueci-senha,  select, .btn-adicionar-user, select , .btn-limpar, select{
+        cursor: pointer;
+    }
+
+
+
+
+

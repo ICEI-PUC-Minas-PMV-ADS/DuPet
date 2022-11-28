@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>DuPet</title>
+    
+    <link href="style.css" rel="stylesheet">    
+  </head>
+  
+  
+  <body>
+    <div class="container-cadastro">
+                <h2 id="titulo">Cadastro</h2>
+                <form>
+                    <fieldset class="form2">
+                    <div class="form-label">
+                        <label for="userName" >Qual é o seu nome?</label>
+                        <input type="text" placeholder="Nome completo" id="Name"  value="" required >    
+                    </div>
+
+                    <div class="form-label">
+                        <label for="email" > E-mail</label>
+                        <input type="text" placeholder="name@example.com"  value="" required>   
+                    </div>
+
+                    <div class="form-label">
+                        <label for="password" > Senha</label>
+                        <input type="text" placeholder="Senha"  value="" required>
+                    </div>
+
+                    <div class="form-label">
+                        <label for="Password" >Senha</label>
+                        <input type="text" placeholder="Digite novamente a senha" value="" required>    
+                    </div>
+
+                    <div class="form-label">
+                        <label for="phone" > Celular</label>
+                        <input type="text" placeholder="(xx) X XXXX- XXXX"  value="" required>    
+                    </div>
+
+                        <button class="btn-adicionar-user" type="submit" onclick="autenticarUsuario()">Cadastrar</button>
+                        <button class="btn-limpar" type="submit" onclick="limparFormulario()">Cancelar</button>
+                    </fieldset>
+              </form>
+    
+    </div>
+</body>
+
+    <script src="js/UsuarioController.js"></script>
+    
+    </html>
