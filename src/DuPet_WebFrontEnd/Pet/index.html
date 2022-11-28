@@ -7,13 +7,15 @@
     <title>DuPet</title>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/adicionar.css">
 </head>
 <body>
-    <div class="container">
+    <div class="container_index">
         <div id="cabecalho_pets">
             <h1>Meus Pets</h1>
-            <div id="adicionar_pet">                
+            <div id="adicionar_pet" data-bs-toggle="modal" data-bs-target="#cadastroPet">                
                     <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#40E0D0" class="bi bi-plus-circle-fill" viewBox="0 0 16 16">
                         <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z"/>
                     </svg>                
@@ -21,72 +23,79 @@
             </div>
         </div>
         <div id="grid_pets">
+        </div>       
+    </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="cadastroPet" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered ">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="tituloModal">Dados Cadastrais</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
-    </div>        
+        <div class="modal-body">
+            <div class="tab-slider--nav col-12">
+                <ul class="tab-slider--tabs">
+                    <li class="tab-slider--trigger active" rel="detalhesPet">Perfil</li>
+                    <li class="tab-slider--trigger" rel="vacinasVermifugos">Registros</li>
+                </ul>
+            </div>
+            <div class="tab-slider--container col-12">
+                <div id="detalhesPet" class="tab-slider--body">
+                    <form id="pet_formulario" class="campos-formulario">
+                        <div class="" >
+                            <label for="pet_id" class="form-label">Id</label>
+                            <input type="number" class="form-control" id="pet_id" disabled>    
+                        </div>
+                        <div class="">
+                            <label for="pet_nome" class="form-label">Nome</label>
+                            <input type="text" class="form-control" id="pet_nome" >    
+                        </div>
+                        <div class="">
+                            <label for="pet_raca" class="form-label">Raça</label>
+                            <input type="text" class="form-control" id="pet_raca" value="" >    
+                        </div>
+                        <div class="">
+                            <label for="pet_pelagem" class="form-label">Pelagem</label>
+                            <input type="text" class="form-control" id="pet_pelagem" >    
+                        </div>
+                        <div class="">
+                            <label for="pet_peso" class="form-label">Peso</label>
+                            <input type="email" class="form-control" id="pet_peso" >    
+                        </div>
+                        <div class="">
+                            <label for="exampleFormControlInput1" class="form-label">Sexo</label>
+                            <select id="pet_sexo" class="form-select" aria-label="Default select example">
+                                <option selected>Selecione...</option>
+                                <option value="M">Macho</option>
+                                <option value="F">Fêmea</option>
+                            </select>    
+                        </div>
+                        <div class="">
+                            <label for="exampleFormControlInput1" class="form-label">Data de Nascimento</label>
+                            <input type="date" class="form-control" id="pet_dtnascimento" >    
+                        </div>                      
+                    </form>
+                </div> 
+                <div id="vacinasVermifugos" class="tab-slider--body col-12">
+                    <h2>Vacinas e Vermífugos</h2>
+                    <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
+                </div>    
+            </div>
+        </div>
+        <div class="modal-footer col-12" id="botoes-rodape">
+            <span id="btn-limpar" data-bs-dismiss="modal" onclick="limparFormulario()">Cancelar</span>
+            <span id="btn-adicionar-pet" onclick="adicionarEditarPet(pet_id.value)">Salvar</span>
+        </div>
+      </div>
+    </div>
+  </div>
+    
 </body>
-<script>
- const data = [
-    {
-        "id": 1,
-        "nome": "Ayla",
-        "peso": 14.00,
-        "raca": "Poodle",
-        "sexo": "F",
-        "pelagem": "Bege",
-        "dataDeNascimento": "2022-10-02T05:08:13.959",
-        "doses": [],
-        "usuarios": []
-    },
-
-    {
-        "id": 2,
-        "nome": "Bob",
-        "peso": 20.00,
-        "raca": "Husky",
-        "sexo": "M",
-        "pelagem": "Cinza",
-        "dataDeNascimento": "2022-01-03T05:08:13.959",
-        "doses": [],
-        "usuarios": []
-    },
-
-    {
-        "id": 3,
-        "nome": "Negão",
-        "peso": 14.00,
-        "raca": "Vira-Lata",
-        "sexo": "M",
-        "pelagem": "Preto",
-        "dataDeNascimento": "2020-09-17T05:08:13.959",
-        "doses": [],
-        "usuarios": []
-    }
-]
-
-    function criarGridPets() {
-        if (data == null || data.length == 0) {
-            $("#grid_pets").css("justify-content", "center")
-            $("#grid_pets").append(
-                `<div id="" style="display: flex; flex-direction: column; align-items: center;">
-                    <p id="pet_nome">Nenhum pet foi adicionado ainda :(</p>
-                    <img id="" src="https://t4.ftcdn.net/jpg/04/95/36/11/360_F_495361138_QocGCS4Q9p8hFNRqZMTYXaJbA2s2po9C.jpg" alt=""">                    
-                </div>`
-                )
-        }
-        else{
-            data.forEach(element => {
-                $("#grid_pets").append(
-                    `<div id="pet_card" onClick="visualizarDetalhesDoPet(${element.id})">
-                        <img id="pet_photo" src="https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/02/322868_1100-800x825.jpg" alt=""">
-                        <p id="pet_nome">${element.nome}</p>
-                    </div>`
-                    )
-                console.log(element.nome);
-            });
-        }                
-    }
-
-    criarGridPets(data)
-</script>
 <script src="js/PetController.js"></script>
+<script>
+    listarPetsDoUsuario(1);
+</script>
+
 </html>

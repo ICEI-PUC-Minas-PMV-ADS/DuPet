@@ -30,70 +30,7 @@ h2{
 }
 
 
-.tab-slider--nav{
-    float: left;
-    margin-bottom: 20px;
-    margin-top:20px;
-}
-.tab-slider--tabs{
-    display: block;
-    float: left;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    position: relative;
-    border-radius: 35px;
-    overflow: hidden;
-    background: #fff;
-    border-color: #345F90;
-    border-width: 1px;
-    border-style: solid;
-    height: 35px;
-    user-select: none; 	
-    
-
-}
-
-.tab-slider--tabs:after{
-        content: "";
-        width: 50%;
-        background: #345F90;
-        height: 100%;
-        position: absolute;
-        top: 0;
-        left: 0;
-        transition: all 250ms ease-in-out;
-        border-radius: 35px;
-    }
-
-    .tab-slider--tabs.slide:after{
-        left: 50%;
-    }
-
-.tab-slider--trigger {
-    font-size: 12px;
-    line-height: 1;
-    font-weight: bold;
-    color: #345F90;
-
-    text-align: center;
-    padding: 11px 20px;
-    position: relative;
-    z-index: 2;
-    cursor: pointer;
-    display: inline-block;
-    transition: color 250ms ease-in-out;
-    user-select: none; 
-    left: 5px;
-}
-
-.tab-slider--trigger.active {
-        color: #fff;
-    }
-.tab-slider--body{
-    margin-bottom: 20px;
-    
-}  
+ 
 
 #salvar_pet {
     margin-top: 30px;
@@ -134,7 +71,7 @@ h2{
     border-color: #345F90;
 }
 
-#btn-adicionar-pet {
+#btn-adicionar-pet, #btn-editar-pet {
     color: #fff;
     background: #345F90;
     border-color: #345F90;
